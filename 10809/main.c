@@ -8,12 +8,12 @@ int main(void)
 
     for (int i = 0; i < 26; i++) a[i] = -1;
 
-    if (scanf("%100s", c) != 1) return 0;  // 입력 없으면 종료
+    if (scanf("%100s", c) != 1) return 0;  
 
     for (int i = 0; c[i]; i++) {
-        if ('a' <= c[i] && c[i] <= 'z') {  // 소문자만 처리(예외 방지)
+        if ('a' <= c[i] && c[i] <= 'z') {  
             int b = c[i] - 'a';
-            if (a[b] == -1) a[b] = i;      // 첫 등장만 기록
+            if (a[b] == -1) a[b] = i;     
         }
     }
 
@@ -21,6 +21,6 @@ int main(void)
         if (i) putchar(' ');
         printf("%d", a[i]);
     }
-    putchar('\n');                         // ← 출력 눈에 보이게
+    putchar('\n');                        
     return 0;
 }
