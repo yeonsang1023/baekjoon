@@ -1,10 +1,10 @@
 백준 {10813} - {공 바꾸기}
 
-문제 링크: https://www.acmicpc.net/problem/1100
+문제 링크: https://www.acmicpc.net/problem/10813
 
 
 
-풀이 날짜: 2025-09-07
+풀이 날짜: 2025-09-12
 
 
 
